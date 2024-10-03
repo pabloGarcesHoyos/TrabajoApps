@@ -2,7 +2,7 @@ package dto;
 
 public class ProductDto {
 
-    private long id;
+
     private long Sku;
     private String name;
     private double price;
@@ -47,13 +47,5 @@ public class ProductDto {
 
     public void setStore(String store) {
         this.store = store;
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
     }
 }

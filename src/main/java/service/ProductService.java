@@ -1,7 +1,7 @@
 package service;
 
 import dto.ProductDto;
-import model.Product;
+import entity.Product;
 import org.springframework.stereotype.Service;
 import repository.ProductRepository;
 

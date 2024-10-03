@@ -1,12 +1,10 @@
-package model;
+package entity;
 
 import jakarta.persistence.*;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+
 
 @Entity
-@Table(name = "User")
+@Table(name = "user")
 public class User {
 
     @Id
@@ -33,6 +31,7 @@ public class User {
     private Product product;
 
     public User() {
+        super();
     }
 
     public User(long id, String name, String lastName, String adress, String password, String username, Product product) {

@@ -1,8 +1,7 @@
 package service;
 
 import dto.UserDto;
-import jakarta.persistence.*;
-import model.User;
+import entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import repository.UserRepository;
@@ -24,7 +23,7 @@ public class UserService {
         return userRepository.findById(id);
     }
 
-    public User saveUsers(UserDto userDto) {
+    public User save(UserDto userDto) {
         User user = new User();
         user.setName(user.getName());
         user.setLastName(user.getLastName());
@@ -35,7 +34,7 @@ public class UserService {
         return userRepository.save(user);
     }
 
-    public User updateUsers(UserDto userDto){
+    public User update(UserDto userDto){
         User user = new User();
         user.setId(user.getId());
         user.setName(user.getName());
@@ -47,7 +46,7 @@ public class UserService {
         return userRepository.save(user);
     }
 
-    public void deleteProductsById(long id){
+    public void deleteById(long id){
         userRepository.deleteById(id);
     }
 }

@@ -1,11 +1,11 @@
 package dto;
 
 
-import model.Product;
+import entity.Product;
 
 public class UserDto {
 
-    private long id;
+
     private String name;
     private String lastName;
     private String adress;
@@ -60,12 +60,6 @@ public class UserDto {
     public void setProduct(Product product) {
         this.product = product;
     }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
 }
+
+

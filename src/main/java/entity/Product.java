@@ -1,4 +1,4 @@
-package model;
+package entity;
 
 import jakarta.persistence.*;
 
@@ -27,10 +27,10 @@ public class Product {
     @Column(name = "store")
     private String store;
 
-    @OneToMany(mappedBy = "Product", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "product", cascade = CascadeType.ALL)
     private List<User> users;
 
-    public Product() {
+    public Product(){ super();
     }
 
     public Product(long id, long sku, String name, String price, String brand, String store) {
