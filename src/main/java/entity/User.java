@@ -27,7 +27,7 @@ public class User {
     private String username;
 
     @ManyToOne
-    @JoinColumn(name = "id_product")
+    @JoinColumn(name = "product_id")
     private Product product;
 
     public User() {

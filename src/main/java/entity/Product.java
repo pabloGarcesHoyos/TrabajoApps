@@ -30,7 +30,8 @@ public class Product {
     @OneToMany(mappedBy = "product", cascade = CascadeType.ALL)
     private List<User> users;
 
-    public Product(){ super();
+    public Product() {
+        super();
     }
 
     public Product(long id, long sku, String name, String price, String brand, String store) {
@@ -100,9 +101,5 @@ public class Product {
 
     public List<User> getUsers() {
         return users;
-    }
-
-    public void setUsers(List<User> users) {
-        this.users = users;
     }
 }
