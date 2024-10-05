@@ -1,4 +1,4 @@
-package dto;
+package com.example.tallerProductos.dto;
 
 public class ProductDto {
 

@@ -1,11 +1,11 @@
-package controller;
+package com.example.tallerProductos.controller;
 
-import dto.ProductDto;
-import entity.Product;
+import com.example.tallerProductos.dto.ProductDto;
+import com.example.tallerProductos.entity.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.ProductService;
+import com.example.tallerProductos.service.ProductService;
 
 import java.util.List;
 import java.util.Optional;

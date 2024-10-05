@@ -1,7 +1,7 @@
-package dto;
+package com.example.tallerProductos.dto;
 
 
-import entity.Product;
+import com.example.tallerProductos.entity.Product;
 
 public class UserDto {
 

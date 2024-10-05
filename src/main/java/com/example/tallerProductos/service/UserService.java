@@ -1,10 +1,10 @@
-package service;
+package com.example.tallerProductos.service;
 
-import dto.UserDto;
-import entity.User;
+import com.example.tallerProductos.dto.UserDto;
+import com.example.tallerProductos.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.UserRepository;
+import com.example.tallerProductos.repository.UserRepository;
 
 import java.util.List;
 import java.util.Optional;

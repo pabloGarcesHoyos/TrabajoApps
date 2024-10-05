@@ -1,11 +1,11 @@
-package controller;
+package com.example.tallerProductos.controller;
 
-import dto.UserDto;
-import entity.User;
+import com.example.tallerProductos.dto.UserDto;
+import com.example.tallerProductos.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.UserService;
+import com.example.tallerProductos.service.UserService;
 
 import java.util.List;
 import java.util.Optional;

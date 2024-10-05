@@ -1,9 +1,9 @@
-package service;
+package com.example.tallerProductos.service;
 
-import dto.ProductDto;
-import entity.Product;
+import com.example.tallerProductos.dto.ProductDto;
+import com.example.tallerProductos.entity.Product;
 import org.springframework.stereotype.Service;
-import repository.ProductRepository;
+import com.example.tallerProductos.repository.ProductRepository;
 
 import java.util.List;
 import java.util.Optional;
